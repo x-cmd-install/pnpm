@@ -7,18 +7,18 @@ about:
   head: 024ec3b
   archived: false
   latestVersion: v12.3.4
-  collectedAt: 2026-09-04T19:29:54Z
+  collectedAt: 2026-09-04T21:02:36Z
 timeline:
   created: 2016-01-28
   lastCommit: 2026-09-04
   lastRelease: 2026-09-04
 popularity:
-  star: 36408
+  star: 36409
   watcher: 162
   fork: 1691
   release: 1173
   contributor: 558
-  pullRequest: 6562
+  pullRequest: 6563
   issue: 6333
 language:
   Rust: 21575348
@@ -35,7 +35,7 @@ recent:
     since: 2026-08-05
     release: 31
     mergedPR: 510
-    openPR: 51
+    openPR: 52
     closedIssue: 205
     openIssue: 85
     commit: 611
@@ -43,7 +43,7 @@ recent:
     since: 2026-07-06
     release: 63
     mergedPR: 1033
-    openPR: 73
+    openPR: 74
     closedIssue: 385
     openIssue: 142
     commit: 1236
@@ -51,7 +51,7 @@ recent:
     since: 2026-06-06
     release: 72
     mergedPR: 1405
-    openPR: 88
+    openPR: 89
     closedIssue: 460
     openIssue: 207
     commit: 1741
@@ -59,7 +59,7 @@ recent:
     since: 2026-03-08
     release: 100
     mergedPR: 2049
-    openPR: 149
+    openPR: 150
     closedIssue: 730
     openIssue: 377
     commit: 2902
@@ -67,7 +67,7 @@ recent:
     since: 2025-09-09
     release: 100
     mergedPR: 2390
-    openPR: 178
+    openPR: 179
     closedIssue: 892
     openIssue: 526
     commit: 3490
@@ -75,18 +75,91 @@ recent:
     since: 2024-09-14
     release: 100
     mergedPR: 2858
-    openPR: 200
+    openPR: 201
     closedIssue: 1244
     openIssue: 864
     commit: 3636
 total:
   release: 1173
   mergedPR: 5096
-  openPR: 229
+  openPR: 230
   closedIssue: 4019
   openIssue: 2314
   commit: 13179
 ---
+path: /home/runner/.x-repo/github.com/pnpm/pnpm
+collectedAt: 2026-09-04T21:02:49Z
+loc:
+  Rust:
+    code: 426436
+    comments: 19055
+    blanks: 46150
+    files: 1447
+  TypeScript:
+    code: 260592
+    comments: 20994
+    blanks: 32515
+    files: 1604
+  Yaml:
+    code: 128859
+    comments: 234
+    blanks: 16874
+    files: 241
+  Json:
+    code: 51699
+    comments: 0
+    blanks: 9
+    files: 1098
+  Toml:
+    code: 3410
+    comments: 151
+    blanks: 414
+    files: 102
+  JavaScript:
+    code: 3078
+    comments: 802
+    blanks: 451
+    files: 149
+  Sh:
+    code: 296
+    comments: 100
+    blanks: 55
+    files: 11
+  Bitbake:
+    code: 184
+    comments: 0
+    blanks: 22
+    files: 1
+  Dockerfile:
+    code: 70
+    comments: 16
+    blanks: 14
+    files: 2
+  Batch:
+    code: 16
+    comments: 1
+    blanks: 0
+    files: 7
+  Ini:
+    code: 4
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 7596
+    blanks: 2949
+    files: 223
+  Text:
+    code: 0
+    comments: 11
+    blanks: 0
+    files: 9
+total:
+  code: 875218
+  comments: 104233
+  blanks: 102730
+  files: 4895
 ---
 date: "2026-08-24"
 repo:
