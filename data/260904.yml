@@ -1,0 +1,63 @@
+about:
+  description: Fast, disk space efficient package manager
+  license: MIT
+  homepage: https://pnpm.io
+  head: abeac7a
+  archived: false
+  latestVersion: v12.3.2
+  collectedAt: 2026-09-04T04:25:47Z
+timeline:
+  created: 2016-01-28
+  lastCommit: 2026-09-04
+  lastRelease: 2026-09-04
+popularity:
+  star: 36399
+  watcher: 162
+  fork: 1688
+  release: 1171
+  contributor: 559
+  pullRequest: 1461
+  issue: 6317
+language:
+  Rust: 21519149
+  TypeScript: 10927575
+  JavaScript: 147222
+  Shell: 20266
+  NASL: 7567
+  Just: 5589
+  Dockerfile: 3943
+  Batchfile: 372
+totalLine: 32631683
+recent:
+  last30d:
+    since: 2026-08-05
+    release: 29
+    mergedPR: 498
+    openPR: 46
+    closedIssue: 204
+    openIssue: 69
+    commit: 597
+  last90d:
+    since: 2026-06-06
+    release: 70
+    mergedPR: 1393
+    openPR: 83
+    closedIssue: 459
+    openIssue: 191
+    commit: 1726
+  last180d:
+    since: 2026-03-08
+    release: 100
+    mergedPR: 2037
+    openPR: 144
+    closedIssue: 729
+    openIssue: 361
+    commit: 2887
+  last360d:
+    since: 2025-09-09
+    release: 100
+    mergedPR: 2379
+    openPR: 173
+    closedIssue: 891
+    openIssue: 510
+    commit: 3475
