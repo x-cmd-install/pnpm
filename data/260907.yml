@@ -2,26 +2,26 @@ about:
   description: "Fast, disk space efficient package manager"
   license: MIT
   homepage: https://pnpm.io
-  head: 3610b85
+  head: 8760cfa
   archived: false
   latestVersion: "v11.26.0"
-  collectedAt: 2026-09-07T04:49:29Z
+  collectedAt: 2026-09-07T19:36:49Z
 timeline:
   created: 2016-01-28
   lastCommit: 2026-09-07
   lastRelease: 2026-09-06
 popularity:
-  star: 36451
+  star: 36459
   watcher: 163
-  fork: 1696
+  fork: 1698
   release: 1174
-  contributor: 568
-  pullRequest: 6621
-  issue: 6357
+  contributor: 571
+  pullRequest: 6638
+  issue: 6365
 language:
-  Rust: 23078811
-  TypeScript: 11001782
-  JavaScript: 172336
+  Rust: 23458989
+  TypeScript: 11026207
+  JavaScript: 184355
   Shell: 20266
   Python: 9512
   NASL: 7567
@@ -29,97 +29,97 @@ language:
   HTML: 4143
   Dockerfile: 3943
   Batchfile: 372
-totalBytes: 34304625
+totalBytes: 34721247
 recent:
   last30d:
     since: 2026-08-08
     release: 30
-    mergedPR: 535
-    openPR: 41
-    closedIssue: 212
-    openIssue: 84
-    commit: 562
+    mergedPR: 556
+    openPR: 35
+    closedIssue: 225
+    openIssue: 79
+    commit: 589
   last60d:
     since: 2026-07-09
     release: 64
-    mergedPR: 1059
-    openPR: 66
-    closedIssue: 397
-    openIssue: 135
-    commit: 1167
+    mergedPR: 1080
+    openPR: 60
+    closedIssue: 410
+    openIssue: 130
+    commit: 1194
   last90d:
     since: 2026-06-09
     release: 73
-    mergedPR: 1437
-    openPR: 81
-    closedIssue: 478
-    openIssue: 204
-    commit: 1720
+    mergedPR: 1458
+    openPR: 75
+    closedIssue: 491
+    openIssue: 199
+    commit: 1747
   last180d:
     since: 2026-03-11
     release: 100
-    mergedPR: 2099
-    openPR: 142
-    closedIssue: 749
-    openIssue: 377
-    commit: 2935
+    mergedPR: 2120
+    openPR: 136
+    closedIssue: 762
+    openIssue: 372
+    commit: 2962
   last360d:
     since: 2025-09-12
     release: 100
-    mergedPR: 2452
-    openPR: 171
-    closedIssue: 914
-    openIssue: 523
-    commit: 3561
+    mergedPR: 2474
+    openPR: 165
+    closedIssue: 927
+    openIssue: 518
+    commit: 3588
   last720d:
     since: 2024-09-17
     release: 100
-    mergedPR: 2915
-    openPR: 193
-    closedIssue: 1265
-    openIssue: 862
-    commit: 3693
+    mergedPR: 2937
+    openPR: 187
+    closedIssue: 1279
+    openIssue: 857
+    commit: 3714
 total:
   release: 1174
-  mergedPR: 5161
-  openPR: 222
-  closedIssue: 4043
-  openIssue: 2314
-  commit: 13244
+  mergedPR: 5183
+  openPR: 216
+  closedIssue: 4059
+  openIssue: 2306
+  commit: 13265
 ---
 path: /home/runner/.x-repo/github.com/pnpm/pnpm
-collectedAt: 2026-09-07T04:50:02Z
+collectedAt: 2026-09-07T19:37:24Z
 loc:
   Rust:
-    code: 459301
-    comments: 19484
-    blanks: 49087
-    files: 1562
+    code: 467901
+    comments: 19504
+    blanks: 49651
+    files: 1587
   TypeScript:
-    code: 261686
-    comments: 21097
-    blanks: 32670
-    files: 1607
+    code: 262229
+    comments: 21193
+    blanks: 32744
+    files: 1608
   Yaml:
-    code: 128862
+    code: 128924
     comments: 260
-    blanks: 16875
+    blanks: 16891
     files: 241
   Json:
-    code: 51717
+    code: 51745
     comments: 0
     blanks: 9
-    files: 1098
+    files: 1099
   Toml:
-    code: 3636
-    comments: 158
-    blanks: 438
-    files: 109
+    code: 3652
+    comments: 168
+    blanks: 440
+    files: 110
   JavaScript:
-    code: 3311
-    comments: 803
-    blanks: 459
-    files: 151
+    code: 3487
+    comments: 868
+    blanks: 486
+    files: 152
   Sh:
     code: 296
     comments: 100
@@ -157,19 +157,19 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 8465
-    blanks: 3131
-    files: 227
+    comments: 8688
+    blanks: 3187
+    files: 228
   Text:
     code: 0
     comments: 11
     blanks: 0
     files: 9
 total:
-  code: 910031
-  comments: 107909
-  blanks: 106172
-  files: 5028
+  code: 919521
+  comments: 108700
+  blanks: 106939
+  files: 5058
 ---
 date: "2026-08-24"
 repo:
@@ -331,7 +331,7 @@ checks:
       - 'Info: all commits (30) are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T04:50:03+00:00
+  collectedAt: 2026-09-07T19:37:26+00:00
   platform:
     darwin/arm64:
       name:  pnpm-darwin-arm64.tar.gz
