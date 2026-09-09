@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 17248571,
       "digest": "sha256:9560243d4e92780c4466bac2ee6aac4166c8bb601ad3c63f070cdd701b28f360",
-      "download_count": 3259,
+      "download_count": 3842,
       "created_at": "2026-09-04T14:10:19Z",
       "updated_at": "2026-09-04T14:10:20Z",
       "browser_download_url": "https://github.com/pnpm/pnpm/releases/download/v12.3.4/pnpm-darwin-arm64.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 19324615,
       "digest": "sha256:b1d4e02cd2f9a37c42dbb82d2f93e80675f417bd4d5f3be8b999a84db673040e",
-      "download_count": 48,
+      "download_count": 53,
       "created_at": "2026-09-04T14:10:19Z",
       "updated_at": "2026-09-04T14:10:20Z",
       "browser_download_url": "https://github.com/pnpm/pnpm/releases/download/v12.3.4/pnpm-darwin-x64.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 18185686,
       "digest": "sha256:75c0b268cedbf9b57b69dcef576b9b307dd5b7650c1f967ac1b8f8d6afc1ca25",
-      "download_count": 30,
+      "download_count": 38,
       "created_at": "2026-09-04T14:10:19Z",
       "updated_at": "2026-09-04T14:10:20Z",
       "browser_download_url": "https://github.com/pnpm/pnpm/releases/download/v12.3.4/pnpm-linux-arm64-musl.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 18014315,
       "digest": "sha256:95e71a2a30bbc0b77511f95cf096779068dcad6ffcbbfdf0cd4dde9de2b2b97c",
-      "download_count": 3494,
+      "download_count": 4448,
       "created_at": "2026-09-04T14:10:19Z",
       "updated_at": "2026-09-04T14:10:20Z",
       "browser_download_url": "https://github.com/pnpm/pnpm/releases/download/v12.3.4/pnpm-linux-arm64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 20042472,
       "digest": "sha256:e4c4f54599627cc0646fbb2ea8103bd6c88634533fbd6c6f5ca0f6fe7d6f5d9c",
-      "download_count": 233,
+      "download_count": 286,
       "created_at": "2026-09-04T14:10:19Z",
       "updated_at": "2026-09-04T14:10:20Z",
       "browser_download_url": "https://github.com/pnpm/pnpm/releases/download/v12.3.4/pnpm-linux-x64-musl.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 19865651,
       "digest": "sha256:9705e5704b4679fb503c963a18d1ac4f105e39aafafca8a2ed346facdf820cd0",
-      "download_count": 21375,
+      "download_count": 26063,
       "created_at": "2026-09-04T14:10:19Z",
       "updated_at": "2026-09-04T14:10:20Z",
       "browser_download_url": "https://github.com/pnpm/pnpm/releases/download/v12.3.4/pnpm-linux-x64.tar.gz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 17011945,
       "digest": "sha256:410872aaccbe38b36e2c1d648aa8d2964b42c71708ccf38f55652e92675aad85",
-      "download_count": 102,
+      "download_count": 110,
       "created_at": "2026-09-04T14:10:19Z",
       "updated_at": "2026-09-04T14:10:20Z",
       "browser_download_url": "https://github.com/pnpm/pnpm/releases/download/v12.3.4/pnpm-win32-arm64.zip"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 18411812,
       "digest": "sha256:ada0d8b62adff9884686d473e27d0f57ef2ca4a044d23a7c6782af86b9a8a6cf",
-      "download_count": 5987,
+      "download_count": 6877,
       "created_at": "2026-09-04T14:10:19Z",
       "updated_at": "2026-09-04T14:10:20Z",
       "browser_download_url": "https://github.com/pnpm/pnpm/releases/download/v12.3.4/pnpm-win32-x64.zip"
@@ -330,14 +330,14 @@
   "body": "## Patch Changes\r\n\r\n- Sped up dependency resolution in large workspaces [#14352](https://github.com/pnpm/pnpm/issues/14352).\r\n\r\n- pnpm 12 now accepts the boolean settings as command-line flags on every command that takes them in pnpm 11, for example `pnpm install --unsafe-perm`, `pnpm add foo --offline`, and `pnpm install --dangerously-allow-all-builds`. pnpm 12 rejected them with `unexpected argument`, which failed every install on Vercel, whose build runs `pnpm install --unsafe-perm` [#14346](https://github.com/pnpm/pnpm/issues/14346).\r\n\r\n  `pnpm remove` now accepts `--unsafe-perm`, the same flag `pnpm install`, `pnpm add`, and `pnpm update` take.\r\n\r\n<!-- sponsors -->\r\n\r\n## Platinum Sponsors\r\n\r\n<table>\r\n  <tbody>\r\n    <tr>\r\n      <td align=\"center\" valign=\"middle\">\r\n        <a href=\"https://bit.cloud/?utm_source=pnpm&utm_medium=release_notes\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://pnpm.io/img/users/bit.svg\" width=\"80\" alt=\"Bit\"></a>\r\n      </td>\r\n      <td align=\"center\" valign=\"middle\">\r\n        <a href=\"https://openai.com/?utm_source=pnpm&utm_medium=release_notes\" target=\"_blank\" rel=\"noopener noreferrer\">\r\n          <picture>\r\n            <source media=\"(prefers-color-scheme: light)\" srcset=\"https://pnpm.io/img/users/openai_dark.svg\" />\r\n            <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://pnpm.io/img/users/openai_light.svg\" />\r\n            <img src=\"https://pnpm.io/img/users/openai_dark.svg\" width=\"160\" alt=\"OpenAI\" />\r\n          </picture>\r\n        </a>\r\n      </td>\r\n      <td align=\"center\" valign=\"middle\">\r\n        <a href=\"https://notion.com/?utm_source=pnpm&utm_medium=release_notes\" target=\"_blank\" rel=\"noopener noreferrer\">\r\n          <picture>\r\n            <source media=\"(prefers-color-scheme: light)\" srcset=\"https://pnpm.io/img/users/notion.svg\" />\r\n            <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://pnpm.io/img/users/notion_light.svg\" />\r\n            <img src=\"https://pnpm.io/img/users/notion.svg\" width=\"80\" alt=\"Notion\" />\r\n          </picture>\r\n        </a>\r\n      </td>\r\n    </tr>\r\n  </tbody>\r\n</table>\r\n\r\n## Gold Sponsors\r\n\r\n<table>\r\n  <tbody>\r\n    <tr>\r\n      <td align=\"center\" valign=\"middle\">\r\n        <a href=\"https://sanity.io/?utm_source=pnpm&utm_medium=release_notes\" target=\"_blank\" rel=\"noopener noreferrer\">\r\n          <picture>\r\n            <source media=\"(prefers-color-scheme: light)\" srcset=\"https://pnpm.io/img/users/sanity.svg\" />\r\n            <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://pnpm.io/img/users/sanity_light.svg\" />\r\n            <img src=\"https://pnpm.io/img/users/sanity.svg\" width=\"120\" alt=\"Sanity\" />\r\n          </picture>\r\n        </a>\r\n      </td>\r\n      <td align=\"center\" valign=\"middle\">\r\n        <a href=\"https://discord.com/?utm_source=pnpm&utm_medium=release_notes\" target=\"_blank\" rel=\"noopener noreferrer\">\r\n          <picture>\r\n            <source media=\"(prefers-color-scheme: light)\" srcset=\"https://pnpm.io/img/users/discord.svg\" />\r\n            <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://pnpm.io/img/users/discord_light.svg\" />\r\n            <img src=\"https://pnpm.io/img/users/discord.svg\" width=\"220\" alt=\"Discord\" />\r\n          </picture>\r\n        </a>\r\n      </td>\r\n      <td align=\"center\" valign=\"middle\">\r\n        <a href=\"https://vite.dev/?utm_source=pnpm&utm_medium=release_notes\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://pnpm.io/img/users/vitejs.svg\" width=\"42\" alt=\"Vite\"></a>\r\n      </td>\r\n    </tr>\r\n    <tr>\r\n      <td align=\"center\" valign=\"middle\">\r\n        <a href=\"https://serpapi.com/?utm_source=pnpm&utm_medium=release_notes\" target=\"_blank\" rel=\"noopener noreferrer\">\r\n          <picture>\r\n            <source media=\"(prefers-color-scheme: light)\" srcset=\"https://pnpm.io/img/users/serpapi_dark.svg\" />\r\n            <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://pnpm.io/img/users/serpapi_light.svg\" />\r\n            <img src=\"https://pnpm.io/img/users/serpapi_dark.svg\" width=\"160\" alt=\"SerpApi\" />\r\n          </picture>\r\n        </a>\r\n      </td>\r\n      <td align=\"center\" valign=\"middle\">\r\n        <a href=\"https://coderabbit.ai/?utm_source=pnpm&utm_medium=release_notes\" target=\"_blank\" rel=\"noopener noreferrer\">\r\n          <picture>\r\n            <source media=\"(prefers-color-scheme: light)\" srcset=\"https://pnpm.io/img/users/coderabbit.svg\" />\r\n            <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://pnpm.io/img/users/coderabbit_light.svg\" />\r\n            <img src=\"https://pnpm.io/img/users/coderabbit.svg\" width=\"220\" alt=\"CodeRabbit\" />\r\n          </picture>\r\n        </a>\r\n      </td>\r\n      <td align=\"center\" valign=\"middle\">\r\n        <a href=\"https://stackblitz.com/?utm_source=pnpm&utm_medium=release_notes\" target=\"_blank\" rel=\"noopener noreferrer\">\r\n          <picture>\r\n            <source media=\"(prefers-color-scheme: light)\" srcset=\"https://pnpm.io/img/users/stackblitz.svg\" />\r\n            <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://pnpm.io/img/users/stackblitz_light.svg\" />\r\n            <img src=\"https://pnpm.io/img/users/stackblitz.svg\" width=\"190\" alt=\"Stackblitz\" />\r\n          </picture>\r\n        </a>\r\n      </td>\r\n    </tr>\r\n    <tr>\r\n      <td align=\"center\" valign=\"middle\">\r\n        <a href=\"https://workleap.com/?utm_source=pnpm&utm_medium=release_notes\" target=\"_blank\" rel=\"noopener noreferrer\">\r\n          <picture>\r\n            <source media=\"(prefers-color-scheme: light)\" srcset=\"https://pnpm.io/img/users/workleap.svg\" />\r\n            <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://pnpm.io/img/users/workleap_light.svg\" />\r\n            <img src=\"https://pnpm.io/img/users/workleap.svg\" width=\"190\" alt=\"Workleap\" />\r\n          </picture>\r\n        </a>\r\n      </td>\r\n      <td align=\"center\" valign=\"middle\">\r\n        <a href=\"https://nx.dev/?utm_source=pnpm&utm_medium=release_notes\" target=\"_blank\" rel=\"noopener noreferrer\">\r\n          <picture>\r\n            <source media=\"(prefers-color-scheme: light)\" srcset=\"https://pnpm.io/img/users/nx.svg\" />\r\n            <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://pnpm.io/img/users/nx_light.svg\" />\r\n            <img src=\"https://pnpm.io/img/users/nx.svg\" width=\"50\" alt=\"Nx\" />\r\n          </picture>\r\n        </a>\r\n      </td>\r\n      <td align=\"center\" valign=\"middle\">\r\n        <a href=\"https://latitude.so/?utm_source=pnpm&utm_medium=release_notes\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://pnpm.io/img/users/latitude.svg\" width=\"160\" alt=\"Latitude\"></a>\r\n      </td>\r\n    </tr>\r\n  </tbody>\r\n</table>\r\n\r\n<!-- sponsors end -->\r\n",
   "reactions": {
     "url": "https://api.github.com/repos/pnpm/pnpm/releases/382779697/reactions",
-    "total_count": 10,
-    "+1": 0,
+    "total_count": 16,
+    "+1": 1,
     "-1": 0,
-    "laugh": 0,
-    "hooray": 2,
+    "laugh": 1,
+    "hooray": 3,
     "confused": 0,
-    "heart": 5,
-    "rocket": 3,
-    "eyes": 0
+    "heart": 6,
+    "rocket": 4,
+    "eyes": 1
   }
 }
