@@ -2,128 +2,129 @@ about:
   description: "Fast, disk space efficient package manager"
   license: MIT
   homepage: https://pnpm.io
-  head: d14fc9b
+  head: 19eb394
   archived: false
   latestVersion: "v12.4.0"
   latestRelease: "v12.4.0"
   latestPrerelease: "pnpr@0.1.0-alpha.10"
-  collectedAt: 2026-09-10T05:02:52Z
+  collectedAt: 2026-09-10T16:46:05Z
 timeline:
   created: 2016-01-28
-  lastCommit: 2026-09-09
+  lastCommit: 2026-09-10
   lastVersion: 2026-09-08
   lastRelease: 2026-09-08
   lastPrerelease: 2026-08-31
 popularity:
-  star: 36471
+  star: 36478
   watcher: 163
-  fork: 1708
+  fork: 1713
   release: 1175
-  contributor: 573
-  pullRequest: 6691
-  issue: 6401
+  contributor: 580
+  pullRequest: 6721
+  issue: 6415
 language:
-  Rust: 24301710
-  TypeScript: 11101060
-  JavaScript: 184355
+  Rust: 24794135
+  TypeScript: 11126308
+  JavaScript: 191694
   Shell: 20266
   Python: 9512
   NASL: 7567
   Just: 5893
   HTML: 4143
   Dockerfile: 3943
+  PowerShell: 2441
   Batchfile: 372
-totalBytes: 35638821
+totalBytes: 36166274
 recent:
   last30d:
     since: 2026-08-11
     release: 28
-    mergedPR: 541
-    openPR: 40
-    closedIssue: 208
-    openIssue: 90
-    commit: 654
+    mergedPR: 580
+    openPR: 31
+    closedIssue: 229
+    openIssue: 83
+    commit: 716
   last60d:
     since: 2026-07-12
     release: 61
-    mergedPR: 1076
-    openPR: 63
-    closedIssue: 422
-    openIssue: 139
-    commit: 1259
+    mergedPR: 1115
+    openPR: 54
+    closedIssue: 443
+    openIssue: 132
+    commit: 1321
   last90d:
     since: 2026-06-12
     release: 70
-    mergedPR: 1453
-    openPR: 78
-    closedIssue: 502
-    openIssue: 209
-    commit: 1812
+    mergedPR: 1492
+    openPR: 69
+    closedIssue: 523
+    openIssue: 202
+    commit: 1874
   last180d:
     since: 2026-03-14
     release: 100
-    mergedPR: 2146
-    openPR: 140
-    closedIssue: 782
-    openIssue: 383
-    commit: 3027
+    mergedPR: 2185
+    openPR: 131
+    closedIssue: 803
+    openIssue: 376
+    commit: 3089
   last360d:
     since: 2025-09-15
     release: 100
-    mergedPR: 2514
-    openPR: 171
-    closedIssue: 940
-    openIssue: 529
-    commit: 3653
+    mergedPR: 2553
+    openPR: 162
+    closedIssue: 961
+    openIssue: 522
+    commit: 3715
   last720d:
     since: 2024-09-20
     release: 100
-    mergedPR: 2980
-    openPR: 193
-    closedIssue: 1294
-    openIssue: 870
-    commit: 3751
+    mergedPR: 3019
+    openPR: 184
+    closedIssue: 1315
+    openIssue: 863
+    commit: 3790
 total:
   release: 1175
-  mergedPR: 5227
-  openPR: 222
-  closedIssue: 4080
-  openIssue: 2321
-  commit: 13309
+  mergedPR: 5266
+  openPR: 213
+  closedIssue: 4101
+  openIssue: 2314
+  commit: 13348
 ---
 path: /home/runner/.x-repo/github.com/pnpm/pnpm
-collectedAt: 2026-09-10T05:03:28Z
+collectedAt: 2026-09-10T16:46:51Z
 loc:
   Rust:
-    code: 486747
-    comments: 17808
-    blanks: 52058
-    files: 1608
+    code: 498673
+    comments: 16533
+    blanks: 53723
+    files: 1621
   TypeScript:
-    code: 263759
-    comments: 21349
-    blanks: 32905
-    files: 1614
+    code: 264255
+    comments: 21397
+    blanks: 32971
+    files: 1615
   Yaml:
     code: 128961
     comments: 264
-    blanks: 16904
+    blanks: 16902
     files: 241
   Json:
-    code: 51744
+    code: 51764
     comments: 0
     blanks: 9
-    files: 1099
+    files: 1100
   Toml:
-    code: 3676
-    comments: 173
-    blanks: 445
+    code: 3686
+    comments: 171
+    blanks: 448
     files: 110
   JavaScript:
-    code: 3487
+    code: 3663
     comments: 868
     blanks: 486
-    files: 152
+    files: 153
   Sh:
     code: 296
     comments: 100
@@ -144,6 +145,11 @@ loc:
     comments: 16
     blanks: 14
     files: 2
+  PowerShell:
+    code: 53
+    comments: 0
+    blanks: 2
+    files: 1
   Html:
     code: 18
     comments: 0
@@ -161,8 +167,8 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 8726
-    blanks: 3200
+    comments: 8729
+    blanks: 3203
     files: 228
   Text:
     code: 0
@@ -170,10 +176,10 @@ loc:
     blanks: 0
     files: 9
 total:
-  code: 939979
-  comments: 112752
-  blanks: 109783
-  files: 5085
+  code: 952660
+  comments: 113734
+  blanks: 111604
+  files: 5102
 ---
 date: "2026-09-07"
 repo:
