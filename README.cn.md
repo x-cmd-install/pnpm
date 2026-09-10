@@ -12,6 +12,28 @@ Fast, disk space efficient package manager
 x install pnpm
 ```
 
+## 代码规模
+
+合计: **957,877** 行代码（覆盖前 5 种语言、共 **5600** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Rust | 504,543 | 16,591 | 53,361 | 2531 |
+| TypeScript | 264,332 | 21,395 | 32,976 | 1615 |
+| Yaml | 128,979 | 271 | 16,905 | 241 |
+| Json | 51,776 | 0 | 9 | 1100 |
+| Toml | 3,758 | 171 | 455 | 113 |
+
+## OpenSSF Scorecard 评分
+
+总评分: **6.6 / 10**
+
+评分最低的几项:
+
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/pnpm/pnpm>
@@ -20,9 +42,28 @@ x install pnpm
 
 ## 发布
 
-- **最新版本**: `v12.4.0` (2026-09-08)
+- **最新版本**: `pnpr@0.1.0-alpha.11` (2026-09-08)
 - **最近提交**: 2026-09-10
 - **Release 含资产**: 8 个
+
+## 流行度
+
+- **Star**: 36,482 · **Fork**: 1,713 · **开放 issue**: 6,420 · **贡献者**: 580
+
+## 累计统计
+
+- **发布数**: 1177 · **已合并 PR**: 5273 · **开放 PR**: 217 · **已关闭 issue**: 4101 · **开放 issue**: 2319 · **提交数**: 13355
+
+## 最近活动
+
+| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 30 | 587 | 35 | 229 | 88 | 725 |
+| last60d | 2026-07-12 | 63 | 1122 | 58 | 443 | 137 | 1330 |
+| 90d | 2026-06-12 | 72 | 1499 | 73 | 523 | 207 | 1883 |
+| last180d | 2026-03-14 | 100 | 2192 | 135 | 803 | 381 | 3098 |
+| 360d | 2025-09-15 | 100 | 2560 | 166 | 961 | 527 | 3724 |
+| last720d | 2024-09-20 | 100 | 3026 | 188 | 1315 | 868 | 3797 |
 
 ## Release 资产
 
@@ -37,43 +78,19 @@ x install pnpm
 | [pnpm-win32-arm64.zip](https://github.com/pnpm/pnpm/releases/download/v12.3.4/pnpm-win32-arm64.zip) | 16.2 MiB | `native/win/arm64` |
 | [pnpm-win32-x64.zip](https://github.com/pnpm/pnpm/releases/download/v12.3.4/pnpm-win32-x64.zip) | 17.6 MiB | `native/win/x64` |
 
-## 流行度
+## 发行版状态
 
-- **Star**: 36,478 · **Fork**: 1,713 · **开放 issue**: 6,415 · **贡献者**: 580
+在 [repology.org](https://repology.org/project/pnpm) 上共有 **103** 个发行版报告此项目。**5** 个 ✅ 已是最新上游版本，**69** 个 ⚠️ 使用旧版本。
 
-## 累计统计
-
-- **发布数**: 1175 · **已合并 PR**: 5266 · **开放 PR**: 213 · **已关闭 issue**: 4101 · **开放 issue**: 2314 · **提交数**: 13348
-
-## 最近活动
-
-| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 28 | 580 | 31 | 229 | 83 | 716 |
-| 90d | 2026-06-12 | 70 | 1492 | 69 | 523 | 202 | 1874 |
-| 360d | 2025-09-15 | 100 | 2553 | 162 | 961 | 522 | 3715 |
-
-## 代码规模
-
-合计: **951,815** 行代码（覆盖前 5 种语言、共 **4687** 个文件）。
-
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Rust | 498,673 | 16,533 | 53,723 | 1621 |
-| TypeScript | 264,255 | 21,397 | 32,971 | 1615 |
-| Yaml | 128,961 | 264 | 16,902 | 241 |
-| Json | 51,764 | 0 | 9 | 1100 |
-| Toml | 3,686 | 171 | 448 | 110 |
-
-## OpenSSF Scorecard 评分
-
-总评分: **6.6 / 10**
-
-评分最低的几项:
-
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Arch | `11.26.0` | ⚠️ outdated |
+| Homebrew | `HEAD` | 🔄 rolling |
+| Fedora rawhide | `10.33.0` | ⚠️ outdated |
+| Nix unstable | `11.25.0` | ⚠️ outdated |
+| Void | `11.8.0` | ⚠️ outdated |
+| Alpine edge | `11.26.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `11.9.0` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -84,4 +101,4 @@ pnpm 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T16:47:01Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T21:35:31Z._
