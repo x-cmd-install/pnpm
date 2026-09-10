@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 36,482 · **Forks**: 1,713 · **Open issues**: 6,420 · **Contributors**: 580
+- **Stars**: 36,482 · **Forks**: 1,715 · **Open issues**: 6,420 · **Contributors**: 580
 
 ## Totals (cumulative)
 
-- **Releases**: 1177 · **Merged PRs**: 5273 · **Open PRs**: 217 · **Closed issues**: 4101 · **Open issues**: 2319 · **Commits**: 13355
+- **Releases**: 1177 · **Merged PRs**: 5273 · **Open PRs**: 218 · **Closed issues**: 4102 · **Open issues**: 2318 · **Commits**: 13355
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 30 | 587 | 35 | 229 | 88 | 725 |
-| last60d | 2026-07-12 | 63 | 1122 | 58 | 443 | 137 | 1330 |
-| 90d | 2026-06-12 | 72 | 1499 | 73 | 523 | 207 | 1883 |
-| last180d | 2026-03-14 | 100 | 2192 | 135 | 803 | 381 | 3098 |
-| 360d | 2025-09-15 | 100 | 2560 | 166 | 961 | 527 | 3724 |
-| last720d | 2024-09-20 | 100 | 3026 | 188 | 1315 | 868 | 3797 |
+| 30d | 2026-08-11 | 30 | 587 | 36 | 230 | 87 | 725 |
+| last60d | 2026-07-12 | 63 | 1122 | 59 | 444 | 136 | 1330 |
+| 90d | 2026-06-12 | 72 | 1499 | 74 | 524 | 206 | 1883 |
+| last180d | 2026-03-14 | 100 | 2192 | 136 | 804 | 380 | 3098 |
+| 360d | 2025-09-15 | 100 | 2560 | 167 | 962 | 526 | 3724 |
+| last720d | 2024-09-20 | 100 | 3026 | 189 | 1316 | 867 | 3797 |
 
 ## Release assets
 
@@ -101,4 +101,4 @@ Install metadata for pnpm lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T21:35:30Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T22:27:51Z._
