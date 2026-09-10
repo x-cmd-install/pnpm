@@ -7,7 +7,7 @@ about:
   latestVersion: "pnpr@0.1.0-alpha.11"
   latestRelease: "v12.4.0"
   latestPrerelease: "pnpr@0.1.0-alpha.11"
-  collectedAt: 2026-09-10T21:34:38Z
+  collectedAt: 2026-09-10T22:26:56Z
 timeline:
   created: 2016-01-28
   lastCommit: 2026-09-10
@@ -17,10 +17,10 @@ timeline:
 popularity:
   star: 36482
   watcher: 163
-  fork: 1713
+  fork: 1715
   release: 1177
   contributor: 580
-  pullRequest: 6732
+  pullRequest: 6733
   issue: 6420
 language:
   Rust: 25004130
@@ -40,60 +40,60 @@ recent:
     since: 2026-08-11
     release: 30
     mergedPR: 587
-    openPR: 35
-    closedIssue: 229
-    openIssue: 88
+    openPR: 36
+    closedIssue: 230
+    openIssue: 87
     commit: 725
   last60d:
     since: 2026-07-12
     release: 63
     mergedPR: 1122
-    openPR: 58
-    closedIssue: 443
-    openIssue: 137
+    openPR: 59
+    closedIssue: 444
+    openIssue: 136
     commit: 1330
   last90d:
     since: 2026-06-12
     release: 72
     mergedPR: 1499
-    openPR: 73
-    closedIssue: 523
-    openIssue: 207
+    openPR: 74
+    closedIssue: 524
+    openIssue: 206
     commit: 1883
   last180d:
     since: 2026-03-14
     release: 100
     mergedPR: 2192
-    openPR: 135
-    closedIssue: 803
-    openIssue: 381
+    openPR: 136
+    closedIssue: 804
+    openIssue: 380
     commit: 3098
   last360d:
     since: 2025-09-15
     release: 100
     mergedPR: 2560
-    openPR: 166
-    closedIssue: 961
-    openIssue: 527
+    openPR: 167
+    closedIssue: 962
+    openIssue: 526
     commit: 3724
   last720d:
     since: 2024-09-20
     release: 100
     mergedPR: 3026
-    openPR: 188
-    closedIssue: 1315
-    openIssue: 868
+    openPR: 189
+    closedIssue: 1316
+    openIssue: 867
     commit: 3797
 total:
   release: 1177
   mergedPR: 5273
-  openPR: 217
-  closedIssue: 4101
-  openIssue: 2319
+  openPR: 218
+  closedIssue: 4102
+  openIssue: 2318
   commit: 13355
 ---
 path: /home/runner/.x-repo/github.com/pnpm/pnpm
-collectedAt: 2026-09-10T21:35:20Z
+collectedAt: 2026-09-10T22:27:42Z
 loc:
   Rust:
     code: 504543

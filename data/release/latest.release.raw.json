@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 17248571,
       "digest": "sha256:9560243d4e92780c4466bac2ee6aac4166c8bb601ad3c63f070cdd701b28f360",
-      "download_count": 4692,
+      "download_count": 4704,
       "created_at": "2026-09-04T14:10:19Z",
       "updated_at": "2026-09-04T14:10:20Z",
       "browser_download_url": "https://github.com/pnpm/pnpm/releases/download/v12.3.4/pnpm-darwin-arm64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 18014315,
       "digest": "sha256:95e71a2a30bbc0b77511f95cf096779068dcad6ffcbbfdf0cd4dde9de2b2b97c",
-      "download_count": 6221,
+      "download_count": 6255,
       "created_at": "2026-09-04T14:10:19Z",
       "updated_at": "2026-09-04T14:10:20Z",
       "browser_download_url": "https://github.com/pnpm/pnpm/releases/download/v12.3.4/pnpm-linux-arm64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 20042472,
       "digest": "sha256:e4c4f54599627cc0646fbb2ea8103bd6c88634533fbd6c6f5ca0f6fe7d6f5d9c",
-      "download_count": 463,
+      "download_count": 466,
       "created_at": "2026-09-04T14:10:19Z",
       "updated_at": "2026-09-04T14:10:20Z",
       "browser_download_url": "https://github.com/pnpm/pnpm/releases/download/v12.3.4/pnpm-linux-x64-musl.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 19865651,
       "digest": "sha256:9705e5704b4679fb503c963a18d1ac4f105e39aafafca8a2ed346facdf820cd0",
-      "download_count": 36165,
+      "download_count": 36385,
       "created_at": "2026-09-04T14:10:19Z",
       "updated_at": "2026-09-04T14:10:20Z",
       "browser_download_url": "https://github.com/pnpm/pnpm/releases/download/v12.3.4/pnpm-linux-x64.tar.gz"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 18411812,
       "digest": "sha256:ada0d8b62adff9884686d473e27d0f57ef2ca4a044d23a7c6782af86b9a8a6cf",
-      "download_count": 8105,
+      "download_count": 8145,
       "created_at": "2026-09-04T14:10:19Z",
       "updated_at": "2026-09-04T14:10:20Z",
       "browser_download_url": "https://github.com/pnpm/pnpm/releases/download/v12.3.4/pnpm-win32-x64.zip"
