@@ -4,7 +4,7 @@
 
 Fast, disk space efficient package manager
 
-[![x-cmd/install — pnpm Code Quality Monitoring Repo Card](https://repo.x-cmd.io/pnpm.svg)](https://x-cmd.com/install/pnpm)
+[![x-cmd/install — pnpm Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/pnpm.svg)](https://x-cmd.com/install/pnpm)
 
 ## Install
 
@@ -14,19 +14,19 @@ x install pnpm
 
 ## Code insight
 
-Total: **1,062,566** lines of code across **5982** files in the top 5 languages.
+Total: **1,074,623** lines of code across **6030** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 594,912 | 17,193 | 58,774 | 2801 |
-| TypeScript | 275,148 | 22,713 | 34,231 | 1644 |
-| Yaml | 129,515 | 281 | 16,989 | 245 |
-| Json | 52,333 | 0 | 9 | 1123 |
+| Rust | 604,500 | 17,155 | 59,507 | 2830 |
+| TypeScript | 277,566 | 23,735 | 34,499 | 1654 |
+| Yaml | 129,517 | 281 | 16,989 | 248 |
+| Json | 52,379 | 0 | 9 | 1129 |
 | JavaScript | 5,504 | 1,175 | 763 | 169 |
 
 ## OpenSSF Scorecard
 
-Overall score: **6.6 / 10**
+Overall score: **6.7 / 10**
 
 Lowest-scoring checks:
 
@@ -42,28 +42,28 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v11.27.1` (2026-09-20)
-- **Last commit**: 2026-09-21
+- **Latest**: `v12.6.0` (2026-09-22)
+- **Last commit**: 2026-09-23
 - **Assets in release**: 14
 
 ## Popularity
 
-- **Stars**: 36,601 · **Forks**: 1,743 · **Open issues**: 6,558 · **Contributors**: 601
+- **Stars**: 36,613 · **Forks**: 1,749 · **Open issues**: 6,566 · **Contributors**: 605
 
 ## Totals (cumulative)
 
-- **Releases**: 1183 · **Merged PRs**: 5534 · **Open PRs**: 231 · **Closed issues**: 5723 · **Open issues**: 835 · **Commits**: 13616
+- **Releases**: 1184 · **Merged PRs**: 5578 · **Open PRs**: 249 · **Closed issues**: 5762 · **Open issues**: 804 · **Commits**: 13660
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 28 | 676 | 42 | 282 | 88 | 833 |
-| last60d | 2026-07-24 | 50 | 1171 | 66 | 506 | 142 | 1427 |
-| 90d | 2026-06-24 | 74 | 1582 | 84 | 619 | 188 | 1990 |
-| last180d | 2026-03-26 | 100 | 2378 | 136 | 1018 | 283 | 3347 |
-| 360d | 2025-09-27 | 100 | 2811 | 179 | 1268 | 332 | 4102 |
-| last720d | 2024-10-02 | 100 | 3269 | 201 | 1867 | 433 | 4034 |
+| 30d | 2026-08-24 | 27 | 700 | 62 | 292 | 82 | 893 |
+| last60d | 2026-07-25 | 50 | 1165 | 86 | 470 | 134 | 1487 |
+| 90d | 2026-06-25 | 75 | 1591 | 105 | 632 | 179 | 2050 |
+| last180d | 2026-03-27 | 100 | 2412 | 149 | 1030 | 277 | 3407 |
+| 360d | 2025-09-28 | 100 | 2854 | 199 | 1281 | 325 | 4162 |
+| last720d | 2024-10-03 | 100 | 3312 | 221 | 1881 | 426 | 4073 |
 
 ## Release assets
 
@@ -93,4 +93,4 @@ Install metadata for pnpm lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T05:16:13Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T05:08:58Z._
