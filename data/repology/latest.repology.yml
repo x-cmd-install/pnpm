@@ -1,3 +1,35 @@
+- repo: parabola
+  subrepo: extra
+  srcname: pnpm
+  binname: pnpm
+  visiblename: pnpm
+  version: 12.15.0
+  origversion: 12.15.0-1
+  status: newest
+  summary: Fast, disk space efficient package manager
+  licenses:
+    - MIT
+- repo: wikidata
+  srcname: Q118939881
+  visiblename: pnpm
+  version: 12.0.0
+  origversion: null
+  status: outdated
+  summary: disk space efficient package manager for JavaScript
+  licenses:
+    - MIT License
+- repo: aosc
+  srcname: lang-js/pnpm
+  binname: pnpm
+  visiblename: pnpm
+  version: 12.9.1
+  origversion: null
+  status: outdated
+  summary: Package manager for Node.js
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - devel
 - repo: aerynos
   srcname: pnpm
   visiblename: pnpm
@@ -20,48 +52,15 @@
     - hi@fabricio.dev
   licenses:
     - MIT
-- repo: exherbo
-  subrepo: arbor
-  srcname: dev-node/pnpm
-  visiblename: dev-node/pnpm
-  version: 11.28.7
-  origversion: null
-  status: outdated
-  summary: Fast, disk space efficient package manager
-  maintainers:
-    - fallback-mnt-exherbo@repology
-  categories:
-    - dev-node
-- repo: nix_unstable
-  srcname: pnpm_10_34_0
-  visiblename: pnpm
-  version: 10.34.0
-  origversion: null
-  status: legacy
-  summary: Fast, disk space efficient package manager for JavaScript
-  maintainers:
-    - contact@scrumplex.net
-    - gutyina.gergo.2@gmail.com
-  licenses:
-    - MIT
 - repo: wakemeops
   subrepo: dev
   binname: pnpm
   visiblename: pnpm
-  version: 12.13.0
-  origversion: 12.13.0-1~ops2deb
+  version: 12.14.0
+  origversion: 12.14.0-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
-- repo: wikidata
-  srcname: Q118939881
-  visiblename: pnpm
-  version: 12.0.0
-  origversion: null
-  status: outdated
-  summary: disk space efficient package manager for JavaScript
-  licenses:
-    - MIT License
 - repo: alpine_3_21
   subrepo: community
   srcname: pnpm
@@ -86,292 +85,6 @@
   summary: Fast, disk space efficient package manager (documentation)
   maintainers:
     - hi@fabricio.dev
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: pnpm
-  binname: pnpm-fish-completion
-  visiblename: pnpm-fish-completion
-  version: 9.15.9
-  origversion: 9.15.9-r0
-  status: outdated
-  summary: Fish completions for pnpm
-  maintainers:
-    - hi@fabricio.dev
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: pnpm
-  binname: pnpm-zsh-completion
-  visiblename: pnpm-zsh-completion
-  version: 9.15.9
-  origversion: 9.15.9-r0
-  status: outdated
-  summary: Zsh completions for pnpm
-  maintainers:
-    - hi@fabricio.dev
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: pnpm
-  binname: pnpm
-  visiblename: pnpm
-  version: 10.9.0
-  origversion: 10.9.0-r0
-  status: outdated
-  summary: Fast, disk space efficient package manager
-  maintainers:
-    - hi@fabricio.dev
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: pnpm
-  binname: pnpm-bash-completion
-  visiblename: pnpm-bash-completion
-  version: 10.9.0
-  origversion: 10.9.0-r0
-  status: outdated
-  summary: Bash completions for pnpm
-  maintainers:
-    - hi@fabricio.dev
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: pnpm
-  binname: pnpm-doc
-  visiblename: pnpm-doc
-  version: 10.9.0
-  origversion: 10.9.0-r0
-  status: outdated
-  summary: Fast, disk space efficient package manager (documentation)
-  maintainers:
-    - hi@fabricio.dev
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: pnpm
-  binname: pnpm-fish-completion
-  visiblename: pnpm-fish-completion
-  version: 10.9.0
-  origversion: 10.9.0-r0
-  status: outdated
-  summary: Fish completions for pnpm
-  maintainers:
-    - hi@fabricio.dev
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: pnpm
-  binname: pnpm-zsh-completion
-  visiblename: pnpm-zsh-completion
-  version: 10.9.0
-  origversion: 10.9.0-r0
-  status: outdated
-  summary: Zsh completions for pnpm
-  maintainers:
-    - hi@fabricio.dev
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: pnpm
-  binname: pnpm
-  visiblename: pnpm
-  version: 10.33.4
-  origversion: 10.33.4-r0
-  status: outdated
-  summary: Fast, disk space efficient package manager
-  maintainers:
-    - alpinelinux@jogemu.at
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: pnpm
-  binname: pnpm-bash-completion
-  visiblename: pnpm-bash-completion
-  version: 10.33.4
-  origversion: 10.33.4-r0
-  status: outdated
-  summary: Bash completions for pnpm
-  maintainers:
-    - alpinelinux@jogemu.at
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: pnpm
-  binname: pnpm-doc
-  visiblename: pnpm-doc
-  version: 10.33.4
-  origversion: 10.33.4-r0
-  status: outdated
-  summary: Fast, disk space efficient package manager (documentation)
-  maintainers:
-    - alpinelinux@jogemu.at
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: pnpm
-  binname: pnpm-fish-completion
-  visiblename: pnpm-fish-completion
-  version: 10.33.4
-  origversion: 10.33.4-r0
-  status: outdated
-  summary: Fish completions for pnpm
-  maintainers:
-    - alpinelinux@jogemu.at
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: pnpm
-  binname: pnpm-zsh-completion
-  visiblename: pnpm-zsh-completion
-  version: 10.33.4
-  origversion: 10.33.4-r0
-  status: outdated
-  summary: Zsh completions for pnpm
-  maintainers:
-    - alpinelinux@jogemu.at
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: pnpm
-  binname: pnpm
-  visiblename: pnpm
-  version: 11.20.0
-  origversion: 11.20.0-r0
-  status: outdated
-  summary: Fast, disk space efficient package manager
-  maintainers:
-    - alpinelinux@jogemu.at
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: pnpm
-  binname: pnpm-bash-completion
-  visiblename: pnpm-bash-completion
-  version: 11.20.0
-  origversion: 11.20.0-r0
-  status: outdated
-  summary: Bash completions for pnpm
-  maintainers:
-    - alpinelinux@jogemu.at
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: pnpm
-  binname: pnpm-doc
-  visiblename: pnpm-doc
-  version: 11.20.0
-  origversion: 11.20.0-r0
-  status: outdated
-  summary: Fast, disk space efficient package manager (documentation)
-  maintainers:
-    - alpinelinux@jogemu.at
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: pnpm
-  binname: pnpm-fish-completion
-  visiblename: pnpm-fish-completion
-  version: 11.20.0
-  origversion: 11.20.0-r0
-  status: outdated
-  summary: Fish completions for pnpm
-  maintainers:
-    - alpinelinux@jogemu.at
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: pnpm
-  binname: pnpm-zsh-completion
-  visiblename: pnpm-zsh-completion
-  version: 11.20.0
-  origversion: 11.20.0-r0
-  status: outdated
-  summary: Zsh completions for pnpm
-  maintainers:
-    - alpinelinux@jogemu.at
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: pnpm
-  binname: pnpm
-  visiblename: pnpm
-  version: 11.28.6
-  origversion: 11.28.6-r0
-  status: outdated
-  summary: Fast, disk space efficient package manager
-  maintainers:
-    - alpinelinux@jogemu.at
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: pnpm
-  binname: pnpm-bash-completion
-  visiblename: pnpm-bash-completion
-  version: 11.28.6
-  origversion: 11.28.6-r0
-  status: outdated
-  summary: Bash completions for pnpm
-  maintainers:
-    - alpinelinux@jogemu.at
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: pnpm
-  binname: pnpm-doc
-  visiblename: pnpm-doc
-  version: 11.28.6
-  origversion: 11.28.6-r0
-  status: outdated
-  summary: Fast, disk space efficient package manager (documentation)
-  maintainers:
-    - alpinelinux@jogemu.at
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: pnpm
-  binname: pnpm-fish-completion
-  visiblename: pnpm-fish-completion
-  version: 11.28.6
-  origversion: 11.28.6-r0
-  status: outdated
-  summary: Fish completions for pnpm
-  maintainers:
-    - alpinelinux@jogemu.at
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: pnpm
-  binname: pnpm-zsh-completion
-  visiblename: pnpm-zsh-completion
-  version: 11.28.6
-  origversion: 11.28.6-r0
-  status: outdated
-  summary: Zsh completions for pnpm
-  maintainers:
-    - alpinelinux@jogemu.at
   licenses:
     - MIT
 - repo: altsisyphus
@@ -389,18 +102,292 @@
     - MIT
   categories:
     - Development/Tools
-- repo: aosc
-  srcname: lang-js/pnpm
+- repo: alpine_3_21
+  subrepo: community
+  srcname: pnpm
+  binname: pnpm-fish-completion
+  visiblename: pnpm-fish-completion
+  version: 9.15.9
+  origversion: 9.15.9-r0
+  status: outdated
+  summary: Fish completions for pnpm
+  maintainers:
+    - hi@fabricio.dev
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: pnpm
+  binname: pnpm-zsh-completion
+  visiblename: pnpm-zsh-completion
+  version: 9.15.9
+  origversion: 9.15.9-r0
+  status: outdated
+  summary: Zsh completions for pnpm
+  maintainers:
+    - hi@fabricio.dev
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: pnpm
   binname: pnpm
   visiblename: pnpm
-  version: 12.9.1
-  origversion: null
+  version: 10.9.0
+  origversion: 10.9.0-r0
   status: outdated
-  summary: Package manager for Node.js
+  summary: Fast, disk space efficient package manager
   maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - devel
+    - hi@fabricio.dev
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: pnpm
+  binname: pnpm-bash-completion
+  visiblename: pnpm-bash-completion
+  version: 10.9.0
+  origversion: 10.9.0-r0
+  status: outdated
+  summary: Bash completions for pnpm
+  maintainers:
+    - hi@fabricio.dev
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: pnpm
+  binname: pnpm-doc
+  visiblename: pnpm-doc
+  version: 10.9.0
+  origversion: 10.9.0-r0
+  status: outdated
+  summary: Fast, disk space efficient package manager (documentation)
+  maintainers:
+    - hi@fabricio.dev
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: pnpm
+  binname: pnpm-fish-completion
+  visiblename: pnpm-fish-completion
+  version: 10.9.0
+  origversion: 10.9.0-r0
+  status: outdated
+  summary: Fish completions for pnpm
+  maintainers:
+    - hi@fabricio.dev
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: pnpm
+  binname: pnpm-zsh-completion
+  visiblename: pnpm-zsh-completion
+  version: 10.9.0
+  origversion: 10.9.0-r0
+  status: outdated
+  summary: Zsh completions for pnpm
+  maintainers:
+    - hi@fabricio.dev
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: pnpm
+  binname: pnpm
+  visiblename: pnpm
+  version: 10.33.4
+  origversion: 10.33.4-r0
+  status: outdated
+  summary: Fast, disk space efficient package manager
+  maintainers:
+    - alpinelinux@jogemu.at
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: pnpm
+  binname: pnpm-bash-completion
+  visiblename: pnpm-bash-completion
+  version: 10.33.4
+  origversion: 10.33.4-r0
+  status: outdated
+  summary: Bash completions for pnpm
+  maintainers:
+    - alpinelinux@jogemu.at
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: pnpm
+  binname: pnpm-doc
+  visiblename: pnpm-doc
+  version: 10.33.4
+  origversion: 10.33.4-r0
+  status: outdated
+  summary: Fast, disk space efficient package manager (documentation)
+  maintainers:
+    - alpinelinux@jogemu.at
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: pnpm
+  binname: pnpm-fish-completion
+  visiblename: pnpm-fish-completion
+  version: 10.33.4
+  origversion: 10.33.4-r0
+  status: outdated
+  summary: Fish completions for pnpm
+  maintainers:
+    - alpinelinux@jogemu.at
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: pnpm
+  binname: pnpm-zsh-completion
+  visiblename: pnpm-zsh-completion
+  version: 10.33.4
+  origversion: 10.33.4-r0
+  status: outdated
+  summary: Zsh completions for pnpm
+  maintainers:
+    - alpinelinux@jogemu.at
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: pnpm
+  binname: pnpm
+  visiblename: pnpm
+  version: 11.20.0
+  origversion: 11.20.0-r0
+  status: outdated
+  summary: Fast, disk space efficient package manager
+  maintainers:
+    - alpinelinux@jogemu.at
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: pnpm
+  binname: pnpm-bash-completion
+  visiblename: pnpm-bash-completion
+  version: 11.20.0
+  origversion: 11.20.0-r0
+  status: outdated
+  summary: Bash completions for pnpm
+  maintainers:
+    - alpinelinux@jogemu.at
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: pnpm
+  binname: pnpm-doc
+  visiblename: pnpm-doc
+  version: 11.20.0
+  origversion: 11.20.0-r0
+  status: outdated
+  summary: Fast, disk space efficient package manager (documentation)
+  maintainers:
+    - alpinelinux@jogemu.at
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: pnpm
+  binname: pnpm-fish-completion
+  visiblename: pnpm-fish-completion
+  version: 11.20.0
+  origversion: 11.20.0-r0
+  status: outdated
+  summary: Fish completions for pnpm
+  maintainers:
+    - alpinelinux@jogemu.at
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: pnpm
+  binname: pnpm-zsh-completion
+  visiblename: pnpm-zsh-completion
+  version: 11.20.0
+  origversion: 11.20.0-r0
+  status: outdated
+  summary: Zsh completions for pnpm
+  maintainers:
+    - alpinelinux@jogemu.at
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: pnpm
+  binname: pnpm
+  visiblename: pnpm
+  version: 11.28.6
+  origversion: 11.28.6-r0
+  status: outdated
+  summary: Fast, disk space efficient package manager
+  maintainers:
+    - alpinelinux@jogemu.at
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: pnpm
+  binname: pnpm-bash-completion
+  visiblename: pnpm-bash-completion
+  version: 11.28.6
+  origversion: 11.28.6-r0
+  status: outdated
+  summary: Bash completions for pnpm
+  maintainers:
+    - alpinelinux@jogemu.at
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: pnpm
+  binname: pnpm-doc
+  visiblename: pnpm-doc
+  version: 11.28.6
+  origversion: 11.28.6-r0
+  status: outdated
+  summary: Fast, disk space efficient package manager (documentation)
+  maintainers:
+    - alpinelinux@jogemu.at
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: pnpm
+  binname: pnpm-fish-completion
+  visiblename: pnpm-fish-completion
+  version: 11.28.6
+  origversion: 11.28.6-r0
+  status: outdated
+  summary: Fish completions for pnpm
+  maintainers:
+    - alpinelinux@jogemu.at
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: pnpm
+  binname: pnpm-zsh-completion
+  visiblename: pnpm-zsh-completion
+  version: 11.28.6
+  origversion: 11.28.6-r0
+  status: outdated
+  summary: Zsh completions for pnpm
+  maintainers:
+    - alpinelinux@jogemu.at
+  licenses:
+    - MIT
 - repo: arch
   subrepo: extra
   srcname: pnpm
@@ -471,6 +458,18 @@
   summary: Fast, disk space efficient package manager
   maintainers:
     - tbier@posteo.de
+- repo: exherbo
+  subrepo: arbor
+  srcname: dev-node/pnpm
+  visiblename: dev-node/pnpm
+  version: 11.28.8
+  origversion: null
+  status: outdated
+  summary: Fast, disk space efficient package manager
+  maintainers:
+    - fallback-mnt-exherbo@repology
+  categories:
+    - dev-node
 - repo: fedora_39
   subrepo: updates
   srcname: nodejs-pnpm
@@ -514,20 +513,6 @@
   categories:
     - Unspecified
 - repo: fedora_41
-  subrepo: release
-  srcname: nodejs-pnpm
-  binnames:
-    - pnpm
-  visiblename: nodejs-pnpm
-  version: 9.0.6
-  origversion: 9.0.6-2.fc41
-  status: legacy
-  summary: Fast, disk space efficient package manager
-  licenses:
-    - MIT AND Apache-2.0 AND BSD-2-Clause AND ISC
-  categories:
-    - Unspecified
-- repo: fedora_41
   subrepo: updates
   srcname: nodejs-pnpm
   binnames:
@@ -536,6 +521,20 @@
   version: 10.9.0
   origversion: 10.9.0-1.fc41
   status: outdated
+  summary: Fast, disk space efficient package manager
+  licenses:
+    - MIT AND Apache-2.0 AND BSD-2-Clause AND ISC
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: release
+  srcname: nodejs-pnpm
+  binnames:
+    - pnpm
+  visiblename: nodejs-pnpm
+  version: 9.0.6
+  origversion: 9.0.6-2.fc41
+  status: legacy
   summary: Fast, disk space efficient package manager
   licenses:
     - MIT AND Apache-2.0 AND BSD-2-Clause AND ISC
@@ -611,6 +610,15 @@
     - MIT AND Apache-2.0 AND BSD-2-Clause AND ISC
   categories:
     - Unspecified
+- repo: wakemeops
+  subrepo: dev
+  binname: pnpm
+  visiblename: pnpm
+  version: 12.13.0
+  origversion: 12.13.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
 - repo: fedora_44
   subrepo: updates
   srcname: nodejs-pnpm
@@ -625,15 +633,6 @@
     - MIT AND Apache-2.0 AND BSD-2-Clause AND ISC
   categories:
     - Unspecified
-- repo: wakemeops
-  subrepo: dev
-  binname: pnpm
-  visiblename: pnpm
-  version: 12.14.0
-  origversion: 12.14.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
 - repo: fedora_rawhide
   subrepo: development
   srcname: nodejs-pnpm
@@ -945,6 +944,28 @@
   licenses:
     - spdx:MIT
 - repo: nix_stable_24_05
+  srcname: pnpm
+  visiblename: pnpm
+  version: 9.7.0
+  origversion: null
+  status: outdated
+  summary: Fast, disk space efficient package manager for JavaScript
+  maintainers:
+    - contact@scrumplex.net
+  licenses:
+    - MIT
+- repo: nix_stable_24_05
+  srcname: pnpm_8
+  visiblename: pnpm
+  version: 8.15.9
+  origversion: null
+  status: legacy
+  summary: Fast, disk space efficient package manager for JavaScript
+  maintainers:
+    - contact@scrumplex.net
+  licenses:
+    - MIT
+- repo: nix_stable_24_05
   srcname: nodePackages.pnpm
   visiblename: pnpm
   version: 8.15.5
@@ -970,28 +991,6 @@
     - MIT
   categories:
     - nodePackages_latest
-- repo: nix_stable_24_05
-  srcname: pnpm
-  visiblename: pnpm
-  version: 9.7.0
-  origversion: null
-  status: outdated
-  summary: Fast, disk space efficient package manager for JavaScript
-  maintainers:
-    - contact@scrumplex.net
-  licenses:
-    - MIT
-- repo: nix_stable_24_05
-  srcname: pnpm_8
-  visiblename: pnpm
-  version: 8.15.9
-  origversion: null
-  status: legacy
-  summary: Fast, disk space efficient package manager for JavaScript
-  maintainers:
-    - contact@scrumplex.net
-  licenses:
-    - MIT
 - repo: nix_stable_24_11
   srcname: pnpm
   visiblename: pnpm
@@ -1160,6 +1159,16 @@
     - gutyina.gergo.2@gmail.com
   licenses:
     - MIT
+- repo: pacstall
+  srcname: pnpm-bin
+  binname: pnpm-bin
+  visiblename: pnpm-bin
+  version: 11.24.0
+  origversion: 11.24.0-1
+  status: outdated
+  summary: Fast, disk space efficient package manager
+  maintainers:
+    - tatsu@autistici.org
 - repo: nix_stable_26_05
   srcname: pnpm_12
   visiblename: pnpm
@@ -1236,6 +1245,18 @@
   srcname: pnpm_10_29_2
   visiblename: pnpm
   version: 10.29.2
+  origversion: null
+  status: legacy
+  summary: Fast, disk space efficient package manager for JavaScript
+  maintainers:
+    - contact@scrumplex.net
+    - gutyina.gergo.2@gmail.com
+  licenses:
+    - MIT
+- repo: nix_unstable
+  srcname: pnpm_10_34_0
+  visiblename: pnpm
+  version: 10.34.0
   origversion: null
   status: legacy
   summary: Fast, disk space efficient package manager for JavaScript
@@ -1327,27 +1348,6 @@
     - MIT
   categories:
     - Development/Languages/Other
-- repo: pacstall
-  srcname: pnpm-bin
-  binname: pnpm-bin
-  visiblename: pnpm-bin
-  version: 11.24.0
-  origversion: 11.24.0-1
-  status: outdated
-  summary: Fast, disk space efficient package manager
-  maintainers:
-    - tatsu@autistici.org
-- repo: parabola
-  subrepo: extra
-  srcname: pnpm
-  binname: pnpm
-  visiblename: pnpm
-  version: 12.15.0
-  origversion: 12.15.0-1
-  status: newest
-  summary: Fast, disk space efficient package manager
-  licenses:
-    - MIT
 - repo: scoop
   subrepo: main
   binname: pnpm
