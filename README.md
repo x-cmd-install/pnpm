@@ -14,15 +14,15 @@ x install pnpm
 
 ## Code insight
 
-Total: **1,400,871** lines of code across **7794** files in the top 5 languages.
+Total: **1,402,108** lines of code across **7796** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 825,611 | 18,150 | 80,608 | 3801 |
-| TypeScript | 363,690 | 28,487 | 45,930 | 2220 |
+| Rust | 826,725 | 18,150 | 80,721 | 3803 |
+| TypeScript | 363,809 | 28,506 | 45,945 | 2220 |
 | Yaml | 132,536 | 150 | 17,702 | 266 |
 | Json | 55,779 | 0 | 9 | 1214 |
-| JavaScript | 14,024 | 1,445 | 1,480 | 293 |
+| JavaScript | 14,024 | 1,447 | 1,480 | 293 |
 
 ## OpenSSF Scorecard
 
@@ -48,52 +48,52 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 36,937 · **Forks**: 1,959 · **Open issues**: 6,843 · **Contributors**: 714
+- **Stars**: 36,952 · **Forks**: 1,960 · **Open issues**: 6,847 · **Contributors**: 715
 
 ## Totals (cumulative)
 
-- **Releases**: 1221 · **Merged PRs**: 6820 · **Open PRs**: 198 · **Closed issues**: 6842 · **Open issues**: 1 · **Commits**: 14898
+- **Releases**: 1221 · **Merged PRs**: 6829 · **Open PRs**: 202 · **Closed issues**: 6846 · **Open issues**: 1 · **Commits**: 14907
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-28 | 34 | 742 | 37 | 216 | 1 | 962 |
-| last60d | 2026-08-29 | 59 | 1775 | 69 | 624 | 1 | 2611 |
-| 90d | 2026-07-30 | 85 | 2287 | 78 | 872 | 1 | 3213 |
-| last180d | 2026-05-01 | 100 | 3516 | 108 | 1495 | 1 | 4877 |
-| 360d | 2025-11-02 | 100 | 4041 | 159 | 1829 | 1 | 5905 |
-| last720d | 2024-11-07 | 100 | 4499 | 181 | 2512 | 1 | 5232 |
+| 30d | 2026-09-29 | 29 | 720 | 40 | 208 | 1 | 978 |
+| last60d | 2026-08-30 | 56 | 1780 | 73 | 618 | 1 | 2627 |
+| 90d | 2026-07-31 | 83 | 2282 | 82 | 868 | 1 | 3229 |
+| last180d | 2026-05-02 | 100 | 3518 | 112 | 1495 | 1 | 4893 |
+| 360d | 2025-11-03 | 100 | 4049 | 163 | 1833 | 1 | 5921 |
+| last720d | 2024-11-08 | 100 | 4508 | 185 | 2515 | 1 | 5241 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [pnpm-android-arm64.tar.gz](https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-android-arm64.tar.gz) | 22.1 MiB | `native/linux/arm64` |
-| [pnpm-android-x64.tar.gz](https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-android-x64.tar.gz) | 24.2 MiB | `native/unknown` |
-| [pnpm-darwin-arm64.tar.gz](https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-darwin-arm64.tar.gz) | 20.9 MiB | `native/darwin/arm64` |
-| [pnpm-darwin-x64.tar.gz](https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-darwin-x64.tar.gz) | 23.4 MiB | `native/darwin/x64` |
-| [pnpm-freebsd-x64.tar.gz](https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-freebsd-x64.tar.gz) | 24.2 MiB | `native/unknown` |
-| [pnpm-linux-arm64-musl.tar.gz](https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-linux-arm64-musl.tar.gz) | 21.9 MiB | `native/linux/arm64/musl` |
-| [pnpm-linux-arm64.tar.gz](https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-linux-arm64.tar.gz) | 21.8 MiB | `native/linux/arm64` |
-| [pnpm-linux-ppc64.tar.gz](https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-linux-ppc64.tar.gz) | 25.3 MiB | `native/unknown` |
-| [pnpm-linux-riscv64.tar.gz](https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-linux-riscv64.tar.gz) | 23.7 MiB | `native/linux/riscv64` |
-| [pnpm-linux-s390x.tar.gz](https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-linux-s390x.tar.gz) | 26.6 MiB | `native/unknown` |
-| [pnpm-linux-x64-musl.tar.gz](https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-linux-x64-musl.tar.gz) | 24.4 MiB | `native/unknown` |
-| [pnpm-linux-x64.tar.gz](https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-linux-x64.tar.gz) | 24.2 MiB | `native/unknown` |
-| [pnpm-win32-arm64.zip](https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-win32-arm64.zip) | 20.6 MiB | `native/win/arm64` |
-| [pnpm-win32-x64.zip](https://github.com/pnpm/pnpm/releases/download/v12.15.0/pnpm-win32-x64.zip) | 22.4 MiB | `native/win/x64` |
+| [pnpm-android-arm64.tar.gz](https://github.com/pnpm/pnpm/releases/download/v12.16.1/pnpm-android-arm64.tar.gz) | 22.5 MiB | `native/linux/arm64` |
+| [pnpm-android-x64.tar.gz](https://github.com/pnpm/pnpm/releases/download/v12.16.1/pnpm-android-x64.tar.gz) | 24.6 MiB | `native/unknown` |
+| [pnpm-darwin-arm64.tar.gz](https://github.com/pnpm/pnpm/releases/download/v12.16.1/pnpm-darwin-arm64.tar.gz) | 21.4 MiB | `native/darwin/arm64` |
+| [pnpm-darwin-x64.tar.gz](https://github.com/pnpm/pnpm/releases/download/v12.16.1/pnpm-darwin-x64.tar.gz) | 24.0 MiB | `native/darwin/x64` |
+| [pnpm-freebsd-x64.tar.gz](https://github.com/pnpm/pnpm/releases/download/v12.16.1/pnpm-freebsd-x64.tar.gz) | 24.6 MiB | `native/unknown` |
+| [pnpm-linux-arm64-musl.tar.gz](https://github.com/pnpm/pnpm/releases/download/v12.16.1/pnpm-linux-arm64-musl.tar.gz) | 22.4 MiB | `native/linux/arm64/musl` |
+| [pnpm-linux-arm64.tar.gz](https://github.com/pnpm/pnpm/releases/download/v12.16.1/pnpm-linux-arm64.tar.gz) | 22.3 MiB | `native/linux/arm64` |
+| [pnpm-linux-ppc64.tar.gz](https://github.com/pnpm/pnpm/releases/download/v12.16.1/pnpm-linux-ppc64.tar.gz) | 25.7 MiB | `native/unknown` |
+| [pnpm-linux-riscv64.tar.gz](https://github.com/pnpm/pnpm/releases/download/v12.16.1/pnpm-linux-riscv64.tar.gz) | 24.1 MiB | `native/linux/riscv64` |
+| [pnpm-linux-s390x.tar.gz](https://github.com/pnpm/pnpm/releases/download/v12.16.1/pnpm-linux-s390x.tar.gz) | 27.1 MiB | `native/unknown` |
+| [pnpm-linux-x64-musl.tar.gz](https://github.com/pnpm/pnpm/releases/download/v12.16.1/pnpm-linux-x64-musl.tar.gz) | 24.9 MiB | `native/unknown` |
+| [pnpm-linux-x64.tar.gz](https://github.com/pnpm/pnpm/releases/download/v12.16.1/pnpm-linux-x64.tar.gz) | 24.8 MiB | `native/unknown` |
+| [pnpm-win32-arm64.zip](https://github.com/pnpm/pnpm/releases/download/v12.16.1/pnpm-win32-arm64.zip) | 21.0 MiB | `native/win/arm64` |
+| [pnpm-win32-x64.zip](https://github.com/pnpm/pnpm/releases/download/v12.16.1/pnpm-win32-x64.zip) | 22.7 MiB | `native/win/x64` |
 
 ## Distribution status
 
-Reported by **118** distros on [repology.org](https://repology.org/project/pnpm). **4** are ✅ on the latest upstream release, **73** are ⚠️ on an older version.
+Reported by **118** distros on [repology.org](https://repology.org/project/pnpm). **9** are ✅ on the latest upstream release, **68** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Arch | `12.15.0` | ⚠️ outdated |
-| Homebrew | `12.15.0` | ⚠️ outdated |
+| Arch | `12.16.1` | ✅ latest |
+| Homebrew | `9.15.9` | 🪦 legacy |
 | Fedora rawhide | `10.33.0` | ⚠️ outdated |
-| Nix unstable | `12.9.0` | ⚠️ outdated |
+| Nix unstable | `10.34.0` | 🪦 legacy |
 | Void | `11.8.0` | ⚠️ outdated |
 | Alpine edge | `11.28.6` | ⚠️ outdated |
 | openSUSE Tumbleweed | `11.9.0` | ⚠️ outdated |
@@ -107,4 +107,4 @@ Install metadata for pnpm lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261028.yml` · 2026-10-28T05:51:49Z._
+_Snapshot: `data/card/261029.yml` · 2026-10-29T06:04:25Z._
