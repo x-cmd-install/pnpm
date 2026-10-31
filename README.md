@@ -14,15 +14,15 @@ x install pnpm
 
 ## Code insight
 
-Total: **1,412,583** lines of code across **7842** files in the top 5 languages.
+Total: **1,415,041** lines of code across **7858** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 835,835 | 18,204 | 81,346 | 3841 |
-| TypeScript | 365,137 | 28,711 | 46,109 | 2228 |
-| Yaml | 132,536 | 150 | 17,702 | 266 |
-| Json | 55,781 | 0 | 9 | 1214 |
-| JavaScript | 14,058 | 1,449 | 1,473 | 293 |
+| Rust | 837,818 | 18,207 | 81,538 | 3856 |
+| TypeScript | 365,546 | 28,704 | 46,114 | 2229 |
+| Yaml | 132,539 | 150 | 17,702 | 266 |
+| Json | 55,785 | 0 | 9 | 1214 |
+| JavaScript | 14,099 | 1,449 | 1,474 | 293 |
 
 ## OpenSSF Scorecard
 
@@ -42,28 +42,28 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v12.16.1` (2026-10-27)
+- **Latest**: `v11.28.10` (2026-10-30)
 - **Last commit**: 2026-10-30
 - **Assets in release**: 14
 
 ## Popularity
 
-- **Stars**: 36,961 · **Forks**: 1,966 · **Open issues**: 6,861 · **Contributors**: 717
+- **Stars**: 36,971 · **Forks**: 1,968 · **Open issues**: 6,865 · **Contributors**: 718
 
 ## Totals (cumulative)
 
-- **Releases**: 1221 · **Merged PRs**: 6851 · **Open PRs**: 203 · **Closed issues**: 6856 · **Open issues**: 5 · **Commits**: 14929
+- **Releases**: 1223 · **Merged PRs**: 6869 · **Open PRs**: 201 · **Closed issues**: 6863 · **Open issues**: 2 · **Commits**: 14947
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-30 | 28 | 718 | 40 | 202 | 5 | 1015 |
-| last60d | 2026-08-31 | 56 | 1779 | 74 | 619 | 5 | 2664 |
-| 90d | 2026-08-01 | 82 | 2288 | 82 | 863 | 5 | 3266 |
-| last180d | 2026-05-03 | 100 | 3540 | 113 | 1505 | 5 | 4930 |
-| 360d | 2025-11-04 | 100 | 4069 | 164 | 1842 | 5 | 5958 |
-| last720d | 2024-11-09 | 100 | 4530 | 186 | 2524 | 5 | 5263 |
+| 30d | 2026-10-01 | 28 | 703 | 39 | 192 | 2 | 1053 |
+| last60d | 2026-09-01 | 57 | 1773 | 71 | 606 | 2 | 2702 |
+| 90d | 2026-08-02 | 83 | 2293 | 80 | 864 | 2 | 3304 |
+| last180d | 2026-05-04 | 100 | 3547 | 112 | 1505 | 2 | 4968 |
+| 360d | 2025-11-05 | 100 | 4087 | 163 | 1848 | 2 | 5996 |
+| last720d | 2024-11-10 | 100 | 4548 | 184 | 2530 | 2 | 5281 |
 
 ## Release assets
 
@@ -86,16 +86,16 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **118** distros on [repology.org](https://repology.org/project/pnpm). **9** are ✅ on the latest upstream release, **68** are ⚠️ on an older version.
+Reported by **121** distros on [repology.org](https://repology.org/project/pnpm). **6** are ✅ on the latest upstream release, **73** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Arch | `12.16.1` | ✅ latest |
-| Homebrew | `12.16.1` | ✅ latest |
+| Arch | `12.16.1` | ⚠️ outdated |
+| Homebrew | `12.16.1` | ⚠️ outdated |
 | Fedora rawhide | `10.33.0` | ⚠️ outdated |
-| Nix unstable | `12.9.0` | ⚠️ outdated |
+| Nix unstable | `10.34.0` | 🪦 legacy |
 | Void | `11.8.0` | ⚠️ outdated |
-| Alpine edge | `11.28.6` | ⚠️ outdated |
+| Alpine edge | `11.28.9` | ⚠️ outdated |
 | openSUSE Tumbleweed | `11.9.0` | ⚠️ outdated |
 
 ## Improve this data
@@ -107,4 +107,4 @@ Install metadata for pnpm lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261030.yml` · 2026-10-30T05:57:42Z._
+_Snapshot: `data/card/261031.yml` · 2026-10-31T05:51:54Z._
