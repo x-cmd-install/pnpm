@@ -1,29 +1,24 @@
-- repo: nix_stable_24_05
-  srcname: nodePackages.pnpm
+- repo: chocolatey
+  binname: pnpm
   visiblename: pnpm
-  version: 8.15.5
+  version: 12.15.0
+  origversion: null
+  status: outdated
+  summary: Fast, disk space efficient package manager for Node-based projects.
+- repo: homebrew
+  srcname: pnpm
+  visiblename: pnpm
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Fast, disk space efficient package manager
+- repo: homebrew
+  srcname: pnpm@10
+  visiblename: pnpm@10
+  version: 10.34.9
   origversion: null
   status: legacy
   summary: Fast, disk space efficient package manager
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - MIT
-  categories:
-    - nodePackages
-- repo: nix_stable_24_05
-  srcname: nodePackages_latest.pnpm
-  visiblename: pnpm
-  version: 8.15.5
-  origversion: null
-  status: legacy
-  summary: Fast, disk space efficient package manager
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - MIT
-  categories:
-    - nodePackages_latest
 - repo: aerynos
   srcname: pnpm
   visiblename: pnpm
@@ -98,6 +93,13 @@
     - hi@fabricio.dev
   licenses:
     - MIT
+- repo: homebrew
+  srcname: pnpm
+  visiblename: pnpm
+  version: 12.18.0
+  origversion: null
+  status: outdated
+  summary: Fast, disk space efficient package manager
 - repo: alpine_3_22
   subrepo: community
   srcname: pnpm
@@ -135,6 +137,15 @@
   summary: Fast, disk space efficient package manager (documentation)
   maintainers:
     - hi@fabricio.dev
+  licenses:
+    - MIT
+- repo: chromebrew
+  srcname: pnpm
+  visiblename: pnpm
+  version: 12.18.0
+  origversion: null
+  status: outdated
+  summary: Fast, disk space efficient package manager
   licenses:
     - MIT
 - repo: alpine_3_22
@@ -390,17 +401,6 @@
   srcname: pnpm
   binname: pnpm
   visiblename: pnpm
-  version: 12.17.0
-  origversion: 12.17.0-1
-  status: outdated
-  summary: Fast, disk space efficient package manager
-  licenses:
-    - MIT
-- repo: arch_testing
-  subrepo: extra-testing
-  srcname: pnpm
-  binname: pnpm
-  visiblename: pnpm
   version: 12.19.0
   origversion: 12.19.0-1
   status: newest
@@ -437,22 +437,6 @@
   visiblename: pnpm
   version: 12.18.0
   origversion: 12.18.0-1
-  status: outdated
-  summary: Fast, disk space efficient package manager
-  licenses:
-    - MIT
-- repo: chocolatey
-  binname: pnpm
-  visiblename: pnpm
-  version: 12.15.0
-  origversion: null
-  status: outdated
-  summary: Fast, disk space efficient package manager for Node-based projects.
-- repo: chromebrew
-  srcname: pnpm
-  visiblename: pnpm
-  version: 12.18.0
-  origversion: null
   status: outdated
   summary: Fast, disk space efficient package manager
   licenses:
@@ -710,27 +694,6 @@
   categories:
     - sys-apps
 - repo: homebrew
-  srcname: pnpm
-  visiblename: pnpm
-  version: 12.18.0
-  origversion: null
-  status: outdated
-  summary: Fast, disk space efficient package manager
-- repo: homebrew
-  srcname: pnpm
-  visiblename: pnpm
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Fast, disk space efficient package manager
-- repo: homebrew
-  srcname: pnpm@10
-  visiblename: pnpm@10
-  version: 10.34.9
-  origversion: null
-  status: legacy
-  summary: Fast, disk space efficient package manager
-- repo: homebrew
   srcname: pnpm@11
   visiblename: pnpm@11
   version: 11.28.9
@@ -749,9 +712,9 @@
   srcname: pnpm
   binname: pnpm
   visiblename: pnpm
-  version: 12.18.0
-  origversion: 12.18.0-1
-  status: outdated
+  version: 12.19.0
+  origversion: 12.19.0-1
+  status: newest
   summary: Fast, disk space efficient package manager
   maintainers:
     - demm@kaosx.us
@@ -852,9 +815,9 @@
   srcname: devel/pnpm
   binname: pnpm
   visiblename: pnpm
-  version: 12.18.0
+  version: 12.19.0
   origversion: null
-  status: outdated
+  status: newest
   summary: Fast, disk space efficient package manager
   maintainers:
     - sainnhe@github
@@ -917,9 +880,9 @@
   srcname: pnpm
   binname: pnpm
   visiblename: pnpm
-  version: 12.17.0
-  origversion: 12.17.0-1
-  status: outdated
+  version: 12.19.0
+  origversion: 12.19.0-1
+  status: newest
   summary: Fast, disk space efficient package manager
   licenses:
     - MIT
@@ -975,6 +938,32 @@
     - contact@scrumplex.net
   licenses:
     - MIT
+- repo: nix_stable_24_05
+  srcname: nodePackages.pnpm
+  visiblename: pnpm
+  version: 8.15.5
+  origversion: null
+  status: legacy
+  summary: Fast, disk space efficient package manager
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - MIT
+  categories:
+    - nodePackages
+- repo: nix_stable_24_05
+  srcname: nodePackages_latest.pnpm
+  visiblename: pnpm
+  version: 8.15.5
+  origversion: null
+  status: legacy
+  summary: Fast, disk space efficient package manager
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - MIT
+  categories:
+    - nodePackages_latest
 - repo: nix_stable_24_11
   srcname: pnpm
   visiblename: pnpm
@@ -1257,22 +1246,6 @@
   binnames:
     - pnpm
   visiblename: pnpm
-  version: 12.18.0
-  origversion: 12.18.0-1mamba
-  status: legacy
-  summary: Fast, disk space efficient package manager
-  maintainers:
-    - silvan@openmamba.org
-  licenses:
-    - MIT
-  categories:
-    - System/Tools
-- repo: openmamba
-  subrepo: devel-autodist
-  srcname: pnpm
-  binnames:
-    - pnpm
-  visiblename: pnpm
   version: 12.19.0
   origversion: 12.19.0-1mamba
   status: newest
@@ -1406,6 +1379,16 @@
     - MIT
   categories:
     - debug
+- repo: starkos
+  subrepo: extra
+  srcname: pnpm
+  visiblename: pnpm
+  version: 12.19.0
+  origversion: 12.19.0-1
+  status: newest
+  summary: Fast, disk space efficient package manager for JavaScript and Node.js
+  maintainers:
+    - starkos@disroot.org
 - repo: termux
   srcname: pnpm
   binname: pnpm
