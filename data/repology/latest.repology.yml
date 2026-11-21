@@ -1,30 +1,29 @@
-- repo: homebrew
-  srcname: pnpm@10
-  visiblename: pnpm@10
-  version: 10.34.9
+- repo: crux_37
+  subrepo: contrib
+  srcname: pnpm
+  visiblename: pnpm
+  version: 10.11.0
   origversion: null
-  status: legacy
+  status: outdated
   summary: Fast, disk space efficient package manager
-- repo: homebrew
-  srcname: pnpm@11
-  visiblename: pnpm@11
-  version: 11.28.12
+  maintainers:
+    - tbier@posteo.de
+- repo: crux_38
+  subrepo: contrib
+  srcname: pnpm
+  visiblename: pnpm
+  version: 12.22.0
   origversion: null
-  status: legacy
+  status: newest
   summary: Fast, disk space efficient package manager
-- repo: homebrew
-  srcname: pnpm@9
-  visiblename: pnpm@9
-  version: 9.15.9
-  origversion: null
-  status: legacy
-  summary: Fast, disk space efficient package manager
+  maintainers:
+    - tbier@posteo.de
 - repo: aerynos
   srcname: pnpm
   visiblename: pnpm
-  version: 12.12.1
+  version: 12.22.0
   origversion: null
-  status: outdated
+  status: newest
   summary: Fast, disk space efficient package manager
   licenses:
     - MIT
@@ -106,17 +105,6 @@
     - hi@fabricio.dev
   licenses:
     - MIT
-- repo: artix
-  subrepo: world
-  srcname: pnpm
-  binname: pnpm
-  visiblename: pnpm
-  version: 12.21.0
-  origversion: 12.21.0-1
-  status: outdated
-  summary: Fast, disk space efficient package manager
-  licenses:
-    - MIT
 - repo: alpine_3_22
   subrepo: community
   srcname: pnpm
@@ -143,6 +131,18 @@
     - hi@fabricio.dev
   licenses:
     - MIT
+- repo: exherbo
+  subrepo: arbor
+  srcname: dev-node/pnpm
+  visiblename: dev-node/pnpm
+  version: 11.28.13
+  origversion: null
+  status: outdated
+  summary: Fast, disk space efficient package manager
+  maintainers:
+    - fallback-mnt-exherbo@repology
+  categories:
+    - dev-node
 - repo: alpine_3_22
   subrepo: community
   srcname: pnpm
@@ -414,6 +414,17 @@
     - oech3@aur
   licenses:
     - MIT
+- repo: artix
+  subrepo: world
+  srcname: pnpm
+  binname: pnpm
+  visiblename: pnpm
+  version: 12.21.0
+  origversion: 12.21.0-1
+  status: outdated
+  summary: Fast, disk space efficient package manager
+  licenses:
+    - MIT
 - repo: artix_testing
   subrepo: world-gremlins
   srcname: pnpm
@@ -441,38 +452,6 @@
   summary: Fast, disk space efficient package manager
   licenses:
     - MIT
-- repo: crux_37
-  subrepo: contrib
-  srcname: pnpm
-  visiblename: pnpm
-  version: 10.11.0
-  origversion: null
-  status: outdated
-  summary: Fast, disk space efficient package manager
-  maintainers:
-    - tbier@posteo.de
-- repo: crux_38
-  subrepo: contrib
-  srcname: pnpm
-  visiblename: pnpm
-  version: 12.22.0
-  origversion: null
-  status: newest
-  summary: Fast, disk space efficient package manager
-  maintainers:
-    - tbier@posteo.de
-- repo: exherbo
-  subrepo: arbor
-  srcname: dev-node/pnpm
-  visiblename: dev-node/pnpm
-  version: 11.28.13
-  origversion: null
-  status: outdated
-  summary: Fast, disk space efficient package manager
-  maintainers:
-    - fallback-mnt-exherbo@repology
-  categories:
-    - dev-node
 - repo: fedora_39
   subrepo: updates
   srcname: nodejs-pnpm
@@ -544,20 +523,6 @@
   categories:
     - Unspecified
 - repo: fedora_42
-  subrepo: release
-  srcname: nodejs-pnpm
-  binnames:
-    - pnpm
-  visiblename: nodejs-pnpm
-  version: 9.13.0
-  origversion: 9.13.0-2.fc42
-  status: legacy
-  summary: Fast, disk space efficient package manager
-  licenses:
-    - MIT AND Apache-2.0 AND BSD-2-Clause AND ISC
-  categories:
-    - Unspecified
-- repo: fedora_42
   subrepo: updates
   srcname: nodejs-pnpm
   binnames:
@@ -566,6 +531,20 @@
   version: 10.9.0
   origversion: 10.9.0-1.fc42
   status: outdated
+  summary: Fast, disk space efficient package manager
+  licenses:
+    - MIT AND Apache-2.0 AND BSD-2-Clause AND ISC
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: release
+  srcname: nodejs-pnpm
+  binnames:
+    - pnpm
+  visiblename: nodejs-pnpm
+  version: 9.13.0
+  origversion: 9.13.0-2.fc42
+  status: legacy
   summary: Fast, disk space efficient package manager
   licenses:
     - MIT AND Apache-2.0 AND BSD-2-Clause AND ISC
@@ -627,6 +606,28 @@
     - MIT AND Apache-2.0 AND BSD-2-Clause AND ISC
   categories:
     - Unspecified
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: pnpm
+  binname: pnpm
+  visiblename: pnpm
+  version: 12.20.0
+  origversion: 12.20.0-1
+  status: outdated
+  summary: Fast, disk space efficient package manager
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: pnpm
+  binname: pnpm
+  visiblename: pnpm
+  version: 12.22.0
+  origversion: 12.22.0-1
+  status: newest
+  summary: Fast, disk space efficient package manager
+  licenses:
+    - MIT
 - repo: fedora_45
   subrepo: release
   srcname: nodejs-pnpm
@@ -720,6 +721,27 @@
   version: HEAD
   origversion: null
   status: rolling
+  summary: Fast, disk space efficient package manager
+- repo: homebrew
+  srcname: pnpm@10
+  visiblename: pnpm@10
+  version: 10.34.9
+  origversion: null
+  status: legacy
+  summary: Fast, disk space efficient package manager
+- repo: homebrew
+  srcname: pnpm@11
+  visiblename: pnpm@11
+  version: 11.28.13
+  origversion: null
+  status: legacy
+  summary: Fast, disk space efficient package manager
+- repo: homebrew
+  srcname: pnpm@9
+  visiblename: pnpm@9
+  version: 9.15.9
+  origversion: null
+  status: legacy
   summary: Fast, disk space efficient package manager
 - repo: kaos
   subrepo: apps
@@ -853,18 +875,6 @@
     - MIT AND ASL-2.0 AND ISC AND BSD-2-Clause
   categories:
     - Development/Other
-- repo: nix_stable_25_11
-  srcname: pnpm
-  visiblename: pnpm
-  version: 10.28.0
-  origversion: null
-  status: outdated
-  summary: Fast, disk space efficient package manager for JavaScript
-  maintainers:
-    - contact@scrumplex.net
-    - gutyina.gergo.2@gmail.com
-  licenses:
-    - MIT
 - repo: mageia_cauldron
   subrepo: core/release
   srcname: nodejs-pnpm
@@ -886,28 +896,6 @@
   visiblename: pnpm
   version: 12.9.1
   origversion: 12.9.1-1
-  status: outdated
-  summary: Fast, disk space efficient package manager
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: pnpm
-  binname: pnpm
-  visiblename: pnpm
-  version: 12.20.0
-  origversion: 12.20.0-1
-  status: outdated
-  summary: Fast, disk space efficient package manager
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: pnpm
-  binname: pnpm
-  visiblename: pnpm
-  version: 12.21.0
-  origversion: 12.21.0-1
   status: outdated
   summary: Fast, disk space efficient package manager
   licenses:
@@ -1056,6 +1044,18 @@
   version: 9.15.9
   origversion: null
   status: legacy
+  summary: Fast, disk space efficient package manager for JavaScript
+  maintainers:
+    - contact@scrumplex.net
+    - gutyina.gergo.2@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: pnpm
+  visiblename: pnpm
+  version: 10.28.0
+  origversion: null
+  status: outdated
   summary: Fast, disk space efficient package manager for JavaScript
   maintainers:
     - contact@scrumplex.net
