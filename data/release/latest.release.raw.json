@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 26373434,
       "digest": "sha256:66e1bbb315a58027c0f6e91c2881156e74069d81c2c797931ced8fb6388bf055",
-      "download_count": 30,
+      "download_count": 33,
       "created_at": "2026-11-22T12:57:50Z",
       "updated_at": "2026-11-22T12:57:51Z",
       "browser_download_url": "https://github.com/pnpm/pnpm/releases/download/v12.23.0/pnpm-android-arm64.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 28104190,
       "digest": "sha256:fe779ed31fc2275cf2dc438fe76ba28a111733770acf5be4a4fcc4269bd7da2e",
-      "download_count": 21,
+      "download_count": 22,
       "created_at": "2026-11-22T12:57:50Z",
       "updated_at": "2026-11-22T12:57:51Z",
       "browser_download_url": "https://github.com/pnpm/pnpm/releases/download/v12.23.0/pnpm-android-x64.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 25028492,
       "digest": "sha256:52bb314bf0d48928fc15126ccce42aa199275e29018bef112a04ae8acdcaaf14",
-      "download_count": 5389,
+      "download_count": 6958,
       "created_at": "2026-11-22T12:57:50Z",
       "updated_at": "2026-11-22T12:57:51Z",
       "browser_download_url": "https://github.com/pnpm/pnpm/releases/download/v12.23.0/pnpm-darwin-arm64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 27466208,
       "digest": "sha256:9655877c63f33bbb64508871e443fc05a5e4a87641c1becd83a45717a4b15d90",
-      "download_count": 1032,
+      "download_count": 1383,
       "created_at": "2026-11-22T12:57:50Z",
       "updated_at": "2026-11-22T12:57:51Z",
       "browser_download_url": "https://github.com/pnpm/pnpm/releases/download/v12.23.0/pnpm-darwin-x64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 27857341,
       "digest": "sha256:2d1bb6a1810406e752a5e9b7e426382c98587a2ef102b17686bb93376ea12219",
-      "download_count": 22,
+      "download_count": 23,
       "created_at": "2026-11-22T12:57:50Z",
       "updated_at": "2026-11-22T12:57:51Z",
       "browser_download_url": "https://github.com/pnpm/pnpm/releases/download/v12.23.0/pnpm-freebsd-x64.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 25852538,
       "digest": "sha256:9b250672fd320ecd349510dc1ec60c3f1f21216b2b5dae637c2e228bf4f8fdd5",
-      "download_count": 3168,
+      "download_count": 4166,
       "created_at": "2026-11-22T12:57:50Z",
       "updated_at": "2026-11-22T12:57:51Z",
       "browser_download_url": "https://github.com/pnpm/pnpm/releases/download/v12.23.0/pnpm-linux-arm64-musl.tar.gz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 25846930,
       "digest": "sha256:dd03f7616625ff8f13d952f641f0864a2300d73d0a751a682737615bd9f9a7a2",
-      "download_count": 6736,
+      "download_count": 10304,
       "created_at": "2026-11-22T12:57:50Z",
       "updated_at": "2026-11-22T12:57:52Z",
       "browser_download_url": "https://github.com/pnpm/pnpm/releases/download/v12.23.0/pnpm-linux-arm64.tar.gz"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 26571040,
       "digest": "sha256:c88e53181646f4c5ac7f76f697250df4b9fec3233851c662efcc08ebd9149017",
-      "download_count": 24,
+      "download_count": 25,
       "created_at": "2026-11-22T12:57:50Z",
       "updated_at": "2026-11-22T12:57:51Z",
       "browser_download_url": "https://github.com/pnpm/pnpm/releases/download/v12.23.0/pnpm-linux-loong64.tar.gz"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 29507310,
       "digest": "sha256:86bb5ae7e0724b28f8dd0b13c3ce088236ba0b1b40615c386a7414f0bb02f106",
-      "download_count": 19,
+      "download_count": 20,
       "created_at": "2026-11-22T12:57:50Z",
       "updated_at": "2026-11-22T12:57:51Z",
       "browser_download_url": "https://github.com/pnpm/pnpm/releases/download/v12.23.0/pnpm-linux-ppc64.tar.gz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 27465142,
       "digest": "sha256:5a9c7ecd753051aeee3e1cc26dd9255b699ad29bbaf22aad9c39617a3b95f06e",
-      "download_count": 20,
+      "download_count": 22,
       "created_at": "2026-11-22T12:57:50Z",
       "updated_at": "2026-11-22T12:57:51Z",
       "browser_download_url": "https://github.com/pnpm/pnpm/releases/download/v12.23.0/pnpm-linux-riscv64.tar.gz"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 30187302,
       "digest": "sha256:90151bbde67a73e6cb25c083b3dff186c022cbf8fe10138066c3c2edbd96f80b",
-      "download_count": 24,
+      "download_count": 25,
       "created_at": "2026-11-22T12:57:50Z",
       "updated_at": "2026-11-22T12:57:52Z",
       "browser_download_url": "https://github.com/pnpm/pnpm/releases/download/v12.23.0/pnpm-linux-s390x.tar.gz"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 28095865,
       "digest": "sha256:bd5ccafed63753322371d24b6676fe9a773ef5f9961d22ea225c1b287be28d57",
-      "download_count": 4339,
+      "download_count": 5599,
       "created_at": "2026-11-22T12:57:50Z",
       "updated_at": "2026-11-22T12:57:51Z",
       "browser_download_url": "https://github.com/pnpm/pnpm/releases/download/v12.23.0/pnpm-linux-x64-musl.tar.gz"
@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 28006349,
       "digest": "sha256:b515e29f2ac1adc0fbe63173414a6682827baff24f17e7ad3476821bdef236ac",
-      "download_count": 31834,
+      "download_count": 46761,
       "created_at": "2026-11-22T12:57:50Z",
       "updated_at": "2026-11-22T12:57:51Z",
       "browser_download_url": "https://github.com/pnpm/pnpm/releases/download/v12.23.0/pnpm-linux-x64.tar.gz"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 27857549,
       "digest": "sha256:5c65fbf3d7028fbf1ba2792c68b2c09d22f0d02c46f32bbc9af0b5896de1ec9f",
-      "download_count": 21,
+      "download_count": 22,
       "created_at": "2026-11-22T12:57:50Z",
       "updated_at": "2026-11-22T12:57:51Z",
       "browser_download_url": "https://github.com/pnpm/pnpm/releases/download/v12.23.0/pnpm-netbsd-x64.tar.gz"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 22859292,
       "digest": "sha256:d38e823fad07b42edbba6206c56dcb3b5bcf1a6e18a6ba7cd0602490c02fb186",
-      "download_count": 231,
+      "download_count": 281,
       "created_at": "2026-11-22T12:57:50Z",
       "updated_at": "2026-11-22T12:57:52Z",
       "browser_download_url": "https://github.com/pnpm/pnpm/releases/download/v12.23.0/pnpm-win32-arm64.zip"
@@ -607,7 +607,7 @@
       "state": "uploaded",
       "size": 24448120,
       "digest": "sha256:1a954bdc1b15ff036294279391d01a09407b7d46ff972a59d81f23becce96c1c",
-      "download_count": 8631,
+      "download_count": 11129,
       "created_at": "2026-11-22T12:57:50Z",
       "updated_at": "2026-11-22T12:57:51Z",
       "browser_download_url": "https://github.com/pnpm/pnpm/releases/download/v12.23.0/pnpm-win32-x64.zip"
